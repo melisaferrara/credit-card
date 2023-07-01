@@ -4,5 +4,5 @@ export default function Button({text}) {
         console.log(text)
     }
 
-    return <button onClick={handleClick}>click</button>
+    return <button className="pokeButton" onClick={handleClick}>click</button>
 } 

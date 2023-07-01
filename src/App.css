@@ -1,27 +1,28 @@
+/* ejercicio 1 */
+
 .yellow{
     background-color: whitesmoke;
     width: 400px;
     padding: 20px;
-    font-size: 17px;
+    font-size: 18px;
     border-radius: 5px;
     color: black;
-    
 }
 
 .blue{
-    background-color: rgb(73, 206, 161);
+    background-color: rgb(72, 196, 155);
     width: 400px;
     padding: 20px;
-    font-size: 17px;
+    font-size: 18px;
     border-radius: 5px;
     color: white;
 }
 
 .grey{
-    background-color: rgb(163, 148, 62);
+    background-color: rgb(212, 196, 102);
     width: 400px;
     padding: 20px;
-    font-size: 17px;
+    font-size: 18px;
     border-radius: 5px;
     color: white;
 }
@@ -32,14 +33,14 @@
 }
 
 .fa-brands{
-   font-size: 45px;
+   font-size: 50px;
    display: flex;
    justify-content: flex-end;
 }
 
-/* ejercicio 1 */
+/* ejercicio 2 */
 
-.UserCard{
+.userCard{
     background-color: rgb(78, 78, 200);
     width: 500px;
     border-radius: 5px;
@@ -48,4 +49,49 @@
 }
 
 
+/* ejercicio 4 */
 
+
+.green{
+    background-color: green;
+    width: 100px;
+    padding: 30px;
+    font-size: 25px;
+}
+
+.yello{
+    background-color: yellow;
+    width: 100px;
+    padding: 30px;
+    font-size: 25px;
+}
+
+.red{
+    background-color: red;
+    width: 100px;
+    padding: 30px;
+    font-size: 25px;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* ejercicio 5 */
+
+
+.data{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.exercise{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

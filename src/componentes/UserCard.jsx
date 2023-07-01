@@ -2,7 +2,7 @@ import Ratings from "./Rating"
 
 const UserCard = ({ name, rating, gender, job, city }) => {
 
-    return <div className="UserCard">
+    return <div className="userCard">
         <div>
             <h2>{name}</h2>
             <Ratings rating={rating} />
